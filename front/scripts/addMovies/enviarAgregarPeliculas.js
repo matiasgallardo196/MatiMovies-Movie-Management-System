@@ -17,12 +17,13 @@ const crearPelicula = () => {
 
   return movie;
 };
+const apiUrl = process.env.API_URL;
 
 const enviar = async () => {
   try {
     const auxiliar = crearPelicula();
     if (!auxiliar) return;
-    const response = await axios.post("http://localhost:3000/movies", auxiliar);
+    const response = await axios.post(`${apiUrl}/movies`, auxiliar);
     console.log(response.data);
     limpiar();
     alert("Movie added successfully");

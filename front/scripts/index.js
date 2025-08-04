@@ -3,10 +3,11 @@ const crearTarjeta = require("./index/crearTarjeta");
 const axios = require("axios");
 
 const contenedorDeTarjetas = document.getElementById("segundaSeccion");
+const apiUrl = process.env.API_URL;
 
 async function cargarRepositorio() {
   try {
-    const data = await axios.get("http://localhost:3000/movies");
+    const data = await axios.get(`${apiUrl}/movies`);
     const repositorio = new Repository();
     data.data.forEach((data) => repositorio.addMovie(data));
     repositorio
