@@ -1,0 +1,98 @@
+
+html,body{
+    background-image:url("../assets/img/1.webp");
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    height: 100%;
+    background-attachment: fixed;
+    
+    
+}
+
+/* ////////////////////////////Barra Nav///////////////////////////// */
+#header{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+} 
+#imgTitulo{
+    display: flex;
+    align-items: center;
+    
+}
+#imgLogo{
+    width: 10.9375em;
+    height: 4.6875em;
+}
+/* #barraNav{
+    /* width: 100%; */
+    /* border: 2px solid rgb(196, 121, 24); */
+    /* display: flex;
+    justify-content: center; */
+    
+/*     
+    ol {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+}  */
+
+.enlace{
+    border: 2px solid rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    margin: 1em;
+    padding: 0.3125em;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+
+/* ////////////////////////////Cuerpo///////////////////////////// */
+
+
+#main{
+    
+    display: flex;
+    flex-direction: column;
+}
+#primeraSeccion{
+    
+    margin: 3em;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 1em;
+    padding: 1em;
+}
+#segundaSeccion{
+    
+    margin: 0px 3em 3em 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.nuevaTarjeta{
+    border: 2px solid rgba(0, 0, 0, 0.137);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    width: 23.8125em ;
+    /* height: 40.6875em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.459);
+    img{
+        width: 23.75em;
+        height: 26.5625em;
+        object-fit: contain;
+        
+        border-radius: 15px;
+    }
+}
+
