@@ -9,5 +9,5 @@ module.exports = {
     path: __dirname + "/public",
     filename: "[name].bundle.js",
   },
-  plugins: [new Dotenv()],
+  plugins: [new Dotenv({ systemvars: true })],
 };
