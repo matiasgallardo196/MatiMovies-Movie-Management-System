@@ -152,7 +152,14 @@ PM2-matiasgallardo196/
    npm install
    ```
 
-## 🏃‍♂️ Execution
+## 🚀 Deployment
+
+The application is deployed on Railway:
+
+- **Frontend**: [matimovies-movie-management-system-front-production.up.railway.app](https://matimovies-movie-management-system-front-production.up.railway.app)
+- **Backend**: [matimovies-movie-management-system-back-production.up.railway.app](https://matimovies-movie-management-system-back-production.up.railway.app)
+
+## 🏃‍♂️ Local Execution
 
 ### Backend
 
